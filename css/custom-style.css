@@ -1,0 +1,220 @@
+#sticky-header .logo-img a::before {
+	content: '';
+	background: url(../img/before-logo.png);
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 43px;
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+#sticky-header .logo-img a {
+	font: 25px  Poppins, sans-serif;; 
+	color: #fff;
+}
+#sticky-header .row {
+	height: 91px;
+}
+#sticky-header .row > [class*="col-xl"] {
+	padding-top: 10px !important;
+}
+.slider_area .single_slider .slider_info h3 {
+	font-size: 45px !important;
+}
+
+/*----------inscription style--------------*/
+#registration {
+	background-image: url(../img/banner/banner.png);
+	height: 110vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#registration label {
+	color: #fff;
+	font-size: 1.3rem;
+	font-family: "Poppins", sans-serif;
+}
+#registration input {
+	height: 45px;
+	font-family: "Poppins", sans-serif;
+}
+input[type=number] {
+	  -moz-appearance: textfield;
+}
+
+#registration select {
+	height: 45px;
+	font-family: "Poppins", sans-serif;
+	-webkit-appearance: none;
+}
+#registration .registration-title {
+	text-align: center;
+	padding-top: 7rem;
+}
+#registration .registration-title h2 {
+	color: #04d2c8;
+	font-size: 2.5rem;
+}
+.form-row > .col {
+	margin: 20px;
+}
+.form-row .col i {
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+	color: #919191
+}
+#registration .button-wrap {
+	padding: 0 5rem;
+	margin: 25px 0;
+}
+.soumettre-btn {
+  background-color: #57b846;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 60px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+.annuler-btn {
+  float: right;
+  background-color: #f00;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 60px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+#registration #buttoir {
+	background: #fff;
+	padding-left: 15px;
+}
+
+	/*------------popup registration succes------------*/
+		.popup-registration {
+			border-radius: 5px;
+			box-shadow: 0 2px 5px #04d2c8;
+		}
+		.gj-dialog-md-header {
+			display: none;
+		}
+		.popup-registration-title {
+			text-align: center; 
+			margin-bottom: 1.5rem;
+		}
+		.popup-registration-title h3 {
+			font-family: "Roboto","Helvetica","Arial",sans-serif;
+			color: #04d2c8;
+		}
+		.popup-registration-msg {
+			text-align: center;
+		}
+		.popup-registration-msg span {
+			font-family: "Roboto","Helvetica","Arial",sans-serif;
+			font-size: 19px;
+		}
+		.OK-btn {
+			background-color: #04d2c8;
+			color: #fff;
+			padding: 5px 10px;
+			border-radius: 3px;
+			border: none;
+			display: block;
+			margin: 2rem auto;
+		}
+	/*------------popup registration succes------------*/
+
+/*-----x-----inscription style-------x-------*/
+.footer .footer_logo a::before {
+	content: '';
+	background: url(../img/before-logo.png);
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 43px;
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+.footer .footer_logo a {
+	font: 25px  Poppins, sans-serif;; 
+	color: #fff;
+}
+
+.mod_body {
+	background: url('../img/banner/banner.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.module {
+	padding-top: 7rem;
+	padding-bottom: 3rem;
+	background: url('../img/banner/banner.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.module i {
+	font-size: 15px;
+	margin-right: 10px;
+}
+.module .module_title {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin: 25px 0;
+	color: #fff;
+	cursor: pointer;
+	background: #63dbe8;
+	padding: 10px 8px;
+	transition-duration: 1s;
+}
+.module .mod_wrap {
+	background: #fff;
+	padding: 15px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	visibility: hidden;
+}
+.module .mod_img img {
+	width: 225px;
+	height: 200px;
+}
+.module .mod_title {
+	margin: 10px 0;
+}
+.module .mod_title h4 {
+	text-transform: uppercase;
+	margin-bottom: 0;
+	font-weight: bold;
+	font-size: 18px;
+}
+.module .mod_title ul {
+	padding-left: 10px;
+}
+.module .mod_title ul li {
+	line-height: 18px;
+}
+.module .mod_info {
+	margin: 10px 0; 
+}
+.module .mod_info strong {
+	font-family: "Poppins", sans-serif;
+}
+.module .mod_info span { 
+	display: block;
+ }
+ .mod_btn {
+ 	margin: 20px 0;
+ }
+ .mod_btn a {
+ 	border: none;
+ 	padding: 10px 20px;
+	border-radius: 5px;
+	color: #fff !important;
+	text-transform: capitalize;
+	font-family: "Poppins", sans-serif;
+	cursor: pointer;
+ }
